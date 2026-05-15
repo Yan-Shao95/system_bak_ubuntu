@@ -1,0 +1,50 @@
+# VSCode binary caches
+config_selected/Code/Cache/
+config_selected/Code/CacheData/
+config_selected/Code/CachedData/
+config_selected/Code/Code Cache/
+config_selected/Code/Cookies
+config_selected/Code/Cookies-journal
+config_selected/Code/Crashpad/
+config_selected/Code/DawnGraphiteCache/
+config_selected/Code/DawnWebGPUCache/
+config_selected/Code/DIPS
+config_selected/Code/GPUCache/
+config_selected/Code/Local Storage/
+config_selected/Code/Network Persistent State
+config_selected/Code/Session Storage/
+config_selected/Code/Service Worker/
+config_selected/Code/Shared Dictionary/
+config_selected/Code/TransportSecurity
+config_selected/Code/Trust Tokens/
+config_selected/Code/Trust Tokens-journal
+config_selected/Code/VideoDecodeStats/
+config_selected/Code/VideoDec*/
+config_selected/Code/WebStorage/
+config_selected/Code/WidevineCdm/
+config_selected/Code/CachedExtensionVSIXs/
+config_selected/Code/CachedProfilesData/
+config_selected/Code/User/workspaceStorage/
+config_selected/Code/User/globalStorage/emptyWindowChatSessions/
+config_selected/Code/User/globalStorage/github.copilot-chat/
+config_selected/Code/User/globalStorage/saoudrizwan.claude-dev/
+
+# Chrome binary data
+config_selected/google-chrome/
+config_selected/google-chrome-hild/
+!config_selected/google-chrome/Default/Bookmarks
+!config_selected/google-chrome/Default/Bookmarks.bak
+
+# RustDesk - contains secrets
+config_selected/rustdesk/
+
+# UV cache
+config_selected/uv/
+
+# Autostart
+config_selected/autostart/
+config_selected/dconf/
+config_selected/evolution/
+config_selected/ibus/
+config_selected/pulse/
+config_selected/systemd/

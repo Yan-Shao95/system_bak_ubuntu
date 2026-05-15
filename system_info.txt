@@ -1,0 +1,64 @@
+# System Environment Backup - 2026-05-15 10:29:42
+
+## OS
+Ubuntu 24.04.4 LTS (Noble Numbat)
+Kernel: 6.17.0-14-generic
+Architecture: x86_64
+
+## Hardware
+- CPU: AMD Ryzen (16 threads)
+- GPU: AMD/ATI Phoenix3 (RDNA3 integrated)
+- RAM: 30GiB
+- Disk: 295GB NVMe (11% used)
+
+## Network
+- Ethernet: eno1 (down)
+- WiFi: wlp12s0 (down)
+- USB Ethernet (Xiaomi): enx3ac9f4d554cc (192.168.145.236)
+- VPN: Meta (198.18.0.1, 10.0.0.0/8 tunnel)
+
+## Desktop
+- Session: X11 (GNOME on Ubuntu)
+- Display: :1
+- Shell: zsh with Oh-My-Zsh + Powerlevel10k
+
+## Installed Package Managers
+- Snap: firefox, bare, core22, core24, gnome-42-2204, gnome-46-2404, snap-store, snapd-desktop-integration, firmware-updater
+- apt mirror: mirrors.tuna.tsinghua.edu.cn
+
+## ROS
+- ROS 2 Jazzy (installed at /opt/ros/jazzy)
+- ROS_DOMAIN_ID=0
+- Workspace: ~/ros2_ws
+- Python: 3
+- Build tools: colcon, ccache
+
+## Development Tools
+- Neovim (lazy.nvim + LSP + treesitter + none-ls)
+- VSCode extensions: Python, C++ (cpptools), Jupyter, PlatformIO, Copilot, Claude Dev, etc.
+- .NET SDK
+- Node.js / npm
+- Rust/Cargo
+- PlatformIO
+
+## Key Shell Aliases
+alias cb='colcon build --symlink-install'
+alias cbfast='colcon build --symlink-install --parallel-workers $(nproc)'
+alias cbrel='colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release'
+alias cbdbg='colcon build --cmake-args -DCMAKE_BUILD_TYPE=Debug'
+alias cbp='colcon build --packages-select'
+alias cleanws='rm -rf build install log'
+
+## Environment Variables
+export ROS_DOMAIN_ID=0
+export RCUTILS_COLORIZED_OUTPUT=1
+export CC="ccache gcc"
+export CXX="ccache g++"
+
+## Apps
+- Input: fcitx5
+- Chrome: google-chrome
+- Clash Verge Rev: ~/.config/io.github.clash-verge-rev.clash-verge-rev
+- RustDesk: remote desktop
+- Sunlogin: remote access
+- GNOME extensions: tiling-assistant
